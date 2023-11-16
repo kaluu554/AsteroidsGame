@@ -37,7 +37,8 @@ public void draw()
 public void keyPressed()
 {
   if (key == 'H'||key =='h') {
-    one.setSpeed(0);
+    one.setXSpeed(0);
+    one.setYSpeed(0);
     one.setCenterX(Math.random()*500);
     one.setCenterY(Math.random()*500);
     one.setDirection(Math.random()*360);
