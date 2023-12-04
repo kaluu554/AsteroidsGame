@@ -31,7 +31,7 @@ public void draw()
     rocks.get(r).move();
     rocks.get(r).show();
     float d = dist((float)one.getCenterX(), (float)one.getCenterY(), (float)rocks.get(r).getCenterX(), (float)rocks.get(r).getCenterY());
-    if (d<10) {
+    if (d<20) {
       rocks.remove(r);
     }
   }
