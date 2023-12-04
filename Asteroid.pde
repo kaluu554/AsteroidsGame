@@ -10,23 +10,28 @@ class Asteroid extends Floater
     myXspeed = (Math.random()*3)-1;
     myYspeed = (Math.random()*3)-1;
     myPointDirection = 0;
-    corners = 7;
+    corners = 9;
     xCorners = new int[corners];
     yCorners = new int[corners];
-    xCorners[0] = -10;
-    yCorners[0] = -8;
-    xCorners[1] = 7;
-    yCorners[1] = -5;
-    xCorners[2] = 12;
-    yCorners[2] = 3;
-    xCorners[3] = 7;
-    yCorners[3] = 10;
-    xCorners[4] = -9;
-    yCorners[4] = -8;
-    xCorners[5] = 6;
-    yCorners[5] = 6;
-    xCorners[6] = -8;
-    yCorners[6] = 8;
+    xCorners[0] = -3;
+    yCorners[0] = 10;
+    xCorners[1] = 15;
+    yCorners[1] = 9;
+    xCorners[2] = 18;
+    yCorners[2] = 0;
+    xCorners[3] = 16;
+    yCorners[3] = -7;
+    xCorners[4] = 5;
+    yCorners[4] = -15;
+    xCorners[5] = -2;
+    yCorners[5] = -8;
+    xCorners[6] = -10;
+    yCorners[6] = -6;
+    xCorners[7] = -12;
+    yCorners[7] = 0;
+    xCorners[8] = -8;
+    yCorners[8] = 2;
+
   }
   public void move()
   {
@@ -40,4 +45,3 @@ class Asteroid extends Floater
     return myCenterY;
   }
 }
-
