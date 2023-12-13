@@ -1,4 +1,3 @@
-
 class Spaceship extends Floater  
 {   
   public Spaceship()
